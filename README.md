@@ -1,4 +1,5 @@
 # 'Making of' Document
+## *Tableau public link* : https://public.tableau.com/profile/shriya8888#!/vizhome/firstversion/Dashboard3
 ## *Introduction* :
 The dataset is speed cameria violations in Chicago where each record gives the number of violations captured by a particular camera on a given day.
 
@@ -32,46 +33,46 @@ This can aid us in getting a better understanding of which police district has h
 
 Each record has information about a police district name, along with the station address, latitude longitiude and zipcode.
 
-As the zip codes present in the speed violation dataset was incorrect,I first tried to merge police station data set by  using the zip codes obtained from the ward offices dataset(![ward datset](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Ward-Offices/htai-wnw4)) with the zip codes in the police station dataset, but this contained a lot of null values.So this would not result in a very accurate analysis. Hence my approach was to allocate the police district closest to the location of violations happening.
+As the zip codes present in the speed violation dataset was incorrect,I first tried to merge police station data set by  using the zip codes obtained from the ward offices dataset([ward datset](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Ward-Offices/htai-wnw4)) with the zip codes in the police station dataset, but this contained a lot of null values.So this would not result in a very accurate analysis. Hence my approach was to allocate the police district closest to the location of violations happening.
 To see my approach click on the ipynb file here:
 
 
-## * General Changes made*:
+## *General Changes made*:
 * The first thing I changed from last week's exploratory analysis was the years 2014 and 2019 had number of records too low compared to the rest. This might just be incomplete data or the cameras were intsalled later on in the case of 2014. And 2019 is not complete yet so it won’t be considered.
 
 Therefore, for the point of my analysis I have removed those years.
 
 ![](indproj/Picture4.png)
 
-* And for all my fianl visuals I have just used a shade of red to maintain uniformity in the visuals. The reason why I chose red is that it was clearer than blue in the map plot.
+* And for all my final visuals I have just used a shade of red to maintain uniformity in the visuals. The reason why I chose red is that it was clearer than blue in the map plot.
 
 ## *Finally the visualizations I created to present to the mayor are*:
 
 ## 1st visual:
 ![image](indproj/Picture1.png)
 
-This is the first dashboard which gives us a general understanding of the violations happening and its trends.This plot shows the violations happening throughout the years and a map plot shows the exact locations of violations based on the latitudes and longitudes:
+This is the first dashboard which gives us a general understanding of the violations happening and its trends.This plot shows the violations happening throughout the years and a map plot shows the exact locations of violations based on the latitudes and longitudes
 
 **Approach**: 
-Used line graph that shows clear trend of the violations throughout the years. I chose line graphs as it is very simple and easy to understand and it clearly shows what is happening throughout the years. For maps, I used density points to show the violations. The higher the number of violations, the darker the density points.
+Used line graph that shows clear trend of the violations throughout the years. I chose line graphs as it is very simple and easy to understand and it clearly shows what is happening throughout the years. 
+
+For maps, I used density points to show the violations. The higher the number of violations, the darker the density points.
 
 **Final analysis:**
 Speed violations are decreasing throughout the years as we can see from the first plot. We can see that for each quarter throughout the years, there is a decreasing trend except for 2018 quarter 4 which has increased from the previous quarter. 
 
-From the locations of violations we can see that speed violations are slightly more in the north of Chicago as there are many points in the north and darker points as compared to the south. This could be because of more population in the north leading to more people violating the rules, or people being faster drivers in the north,or just more traffic.
+From the locations of violations we can see that speed violations are slightly more in the north of Chicago as there are many points darker points in thd north as compared to the south. This could be because of more population in the north leading to more people violating the rules, or people just driving faster in the north.
 
 
 ## 2nd visual:
 ![image](indproj/Picture2.png)
 
-Now moving on to more specific analysis of the violations based on certain time trends. 
+Now moving on to more specific analysis of the violations based on certain time trends. I wanted to know if there any any patterns based on different, more specific time trends. Therefore, violations over the months and during the days of the week was explored.
 
 **Approach**:
-I wanted to know if there any any patterns based on different, more specific time trends. Therefore, violations over the months and during the days of the week.
-
 I have again picked line graph as it is the best in showing clear trends throughout the years. I tried using bar charts as well for this but the differences in each month wasn't as clear as depicted by the line graph.
 
-But I have used bar graph for the weekday/weekend chart as this is clear and better than line graph as line graph would just be a line for the two points. Hence bar graphs are a more powerful representation in this case. And to maintain consistency I used bar graph as well for the day of week plot as as they are a more detailed analysis for each day of the week.
+But I have used bar graph for the weekday/weekend chart as this is clear and better than line graph as line graph would just be a line for the two points. Hence bar graphs are a more powerful representation in this case. And to maintain consistency, I used bar graph as well for the day of week plot as as they are a more detailed analysis for each day of the week.
 
 
 **Final analysis**:
@@ -83,15 +84,17 @@ Therefore to get a more general understanding, I have created a plot which shows
 ## 3rd visual:
 ![image](indproj/Picture31.png)
 
+Using the poilce district information to identify districts of high violations.
+
 **Approach**: 
-Identified the  the total violations happening in each police district.Used bar graph and sorted it based on the decreasing number of violations. Again for me the question was to use line or bar graph, I chose bar graph as it made it clear as to which district has how many violations. Line graph was not as effective.
+Identified the total violations happening in each police district.Used bar graph and sorted it based on the decreasing number of violations. Again for me the question was to use line or bar graph, I chose bar graph as it was clear as to which district has how many violations. Line graph was not as effective.
 
 Along with that I generated a heat map/tree map of the top 10 addresses with maximum violations along with the respective police district and the camera.I chose heat map because I just wanted to show information about the the addresses with many violations. The specific number of violations was not required here as I wanted to show its respective camera id and police district, which looked really cluttered when I tried out other types of graphs like bar, line, circle views and its variations. Heat map was the one that was the best for this scenario.
 
 **Final analysis**:
 Finally it would be helpful to identify the specific areas where the most violations are happening, and their repsecitve closest police stations. To obtain an understanding of the police districts where the most violations are happening, I have created the first bar plot. This shows that Jefferson park police district has the highest number of violations followd by Chicago Lawn and so on. We also see from the second plot that the adress 4909 N cicero ave has highest recorded violations by the camera CHI149 in the Jefferson park police district.
 
-Therefore from this analysis we can suggest that the cops incharge of the few police districts with many speed violations like jefferson park,chicago lawn to probably send out more cops out to these areas to control the violations as people usually follow the rules if they see cops around. This might reduce accidents as well, as speeding sometimes cause major accidents. 
+Therefore from this analysis we can suggest that the  police districts with many speed violations like jefferson park,chicago lawn to probably send more cops out to these areas to control the violations as people usually follow the rules if they see cops around. This might improve overall safety out in the roads as well, as speeding sometimes causes major accidents. 
 
 ## *Conclusion*:
 
