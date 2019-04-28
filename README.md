@@ -74,7 +74,7 @@ But we do see here that violations happen the least during Saturday and Sunday. 
 Therefore to get a more general understanding, I have created a plot which shows the percentage of violations during weekdays and weekends. Weekends do not have a lot of violations as it is just around 30% while weekdays are 70% of the total violations ever happening. A possible explaination coud be that people probably violate the rules because they are running late to work or have a busy schedule. But during the weekend there people are in no rush, hence the violations could be lesser.
 
 ## 3rd visual:
-![image](indproj/Picture3.png)
+![image](indproj/Picture31.png)
 
 **Approach**: Identified the  the total violations happening in each police district. Along with that generated a heat map of the top 10 addresses with maximum violations along with the respective police district and the camera.
 
