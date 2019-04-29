@@ -106,7 +106,7 @@ Therefore from this analysis we can suggest that the  police districts with many
   - Address with the highest violations are 4909 N cicero ave in Jefferson Park caught by camera CHI149, followed by 445 W 127th in Calumet caught by camera CHI045
 * There could be various reasons as to why this is happening, be it population, or traffic, people are running late or just drive faster. Therefore if we could get any information regarding the same it would lead to a better analysis as we can explain why this is happening even better. 
 
-## All links and webistes used for codes and datasets:
+## All links and websites used for codes and datasets:
 * Speed violation dataset: https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4
 * Police dataset: https://data.cityofchicago.org/Public-Safety/Police-Stations/z8bn-74gv
 * Ward office dataset: https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Ward-Offices/htai-wnw4
