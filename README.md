@@ -54,14 +54,14 @@ Therefore, for the point of my analysis I have removed those years.
 This is the first dashboard which gives us a general understanding of the violations happening and its trends.This plot shows the violations happening throughout the years and a map plot shows the exact locations of violations based on the latitudes and longitudes
 
 **Approach**: 
-Used line graph that shows clear trend of the violations throughout the years. I chose line graphs as it is very simple and easy to understand and it clearly shows what is happening throughout the years. 
+* Used line graph that shows clear trend of the violations throughout the years. I chose line graphs as it is very simple and easy to understand and it clearly shows what is happening throughout the years. 
 
-For maps, I used density points to show the violations. The higher the number of violations, the darker the density points.
+* For maps, I used density points to show the violations. The higher the number of violations, the darker the density points.
 
 **Final analysis:**
-Speed violations are decreasing throughout the years as we can see from the first plot. We can see that for each quarter throughout the years, there is a decreasing trend except for 2018 quarter 4 which has increased from the previous quarter. 
+* Speed violations are decreasing throughout the years as we can see from the first plot. We can see that for each quarter throughout the years, there is a decreasing trend except for 2018 quarter 4 which has increased from the previous quarter. 
 
-From the locations of violations we can see that speed violations are slightly more in the north of Chicago as there are many points darker points in thd north as compared to the south. This could be because of more population in the north leading to more people violating the rules, or people just driving faster in the north.
+* From the locations of violations we can see that speed violations are slightly more in the north of Chicago as there are many points darker points in thd north as compared to the south. This could be because of more population in the north leading to more people violating the rules, or people just driving faster in the north.
 
 
 ## 2nd visual:
@@ -70,16 +70,16 @@ From the locations of violations we can see that speed violations are slightly m
 Now moving on to more specific analysis of the violations based on certain time trends. I wanted to know if there any any patterns based on different, more specific time trends. Therefore, violations over the months and during the days of the week was explored.
 
 **Approach**:
-I have again picked line graph as it is the best in showing clear trends throughout the years. I tried using bar charts as well for this but the differences in each month wasn't as clear as depicted by the line graph.
+* I have again picked line graph as it is the best in showing clear trends throughout the years. I tried using bar charts as well for this but the differences in each month wasn't as clear as depicted by the line graph.
 
-But I have used bar graph for the weekday/weekend chart as this is clear and better than line graph as line graph would just be a line for the two points. Hence bar graphs are a more powerful representation in this case. And to maintain consistency, I used bar graph as well for the day of week plot as as they are a more detailed analysis for each day of the week.
+* But I have used bar graph for the weekday/weekend chart as this is clear and better than line graph as line graph would just be a line for the two points. Hence bar graphs are a more powerful representation in this case. And to maintain consistency, I used bar graph as well for the day of week plot as as they are a more detailed analysis for each day of the week.
 
 
 **Final analysis**:
-There are no significant patterns happening every month, it just ranges from 300,000 to 400,000 for each month.                                                                       
-But we do see here that violations happen the least during Saturday and Sunday. I have given a reference line in the plot which indicates the minimum number of violations. Monday through Friday are all higher compared to the minimun. Highest is on Friday.
+* There are no significant patterns happening every month, it just ranges from 300,000 to 400,000 for each month.                                                                       
+* But we do see here that violations happen the least during Saturday and Sunday. I have given a reference line in the plot which indicates the minimum number of violations. Monday through Friday are all higher compared to the minimun. Highest is on Friday.
 
-Therefore to get a more general understanding, I have created a plot which shows the percentage of violations during weekdays and weekends. Weekends do not have a lot of violations as it is just around 30% while weekdays are 70% of the total violations ever happening. A possible explaination coud be that people probably violate the rules because they are running late to work or have a busy schedule. But during the weekend there people are in no rush, hence the violations could be lesser.
+* Therefore to get a more general understanding, I have created a plot which shows the percentage of violations during weekdays and weekends. Weekends do not have a lot of violations as it is just around 30% while weekdays are 70% of the total violations ever happening. A possible explaination coud be that people probably violate the rules because they are running late to work or have a busy schedule. But during the weekend there people are in no rush, hence the violations could be lesser.
 
 ## 3rd visual:
 ![image](indproj/Picture31.png)
@@ -87,14 +87,14 @@ Therefore to get a more general understanding, I have created a plot which shows
 Using the poilce district information to identify districts of high violations.
 
 **Approach**: 
-Identified the total violations happening in each police district.Used bar graph and sorted it based on the decreasing number of violations. Again for me the question was to use line or bar graph, I chose bar graph as it was clear as to which district has how many violations. Line graph was not as effective.
+* Identified the total violations happening in each police district.Used bar graph and sorted it based on the decreasing number of violations. Again for me the question was to use line or bar graph, I chose bar graph as it was clear as to which district has how many violations. Line graph was not as effective.
 
-Along with that I generated a heat map/tree map of the top 10 addresses with maximum violations along with the respective police district and the camera.I chose heat map because I just wanted to show information about the the addresses with many violations. The specific number of violations was not required here as I wanted to show its respective camera id and police district, which looked really cluttered when I tried out other types of graphs like bar, line, circle views and its variations. Heat map was the one that was the best for this scenario.
+* Along with that I generated a heat map/tree map of the top 10 addresses with maximum violations along with the respective police district and the camera.I chose heat map because I just wanted to show information about the the addresses with many violations. The specific number of violations was not required here as I wanted to show its respective camera id and police district, which looked really cluttered when I tried out other types of graphs like bar, line, circle views and its variations. Heat map was the one that was the best for this scenario.
 
 **Final analysis**:
-Finally it would be helpful to identify the specific areas where the most violations are happening, and their repsecitve closest police stations. To obtain an understanding of the police districts where the most violations are happening, I have created the first bar plot. This shows that Jefferson park police district has the highest number of violations followd by Chicago Lawn and so on. We also see from the second plot that the adress 4909 N cicero ave has highest recorded violations by the camera CHI149 in the Jefferson park police district.
+* Finally it would be helpful to identify the specific areas where the most violations are happening, and their repsecitve closest police stations. To obtain an understanding of the police districts where the most violations are happening, I have created the first bar plot. This shows that Jefferson park police district has the highest number of violations followd by Chicago Lawn and so on. We also see from the second plot that the adress 4909 N cicero ave has highest recorded violations by the camera CHI149 in the Jefferson park police district.
 
-Therefore from this analysis we can suggest that the  police districts with many speed violations like jefferson park,chicago lawn to probably send more cops out to these areas to control the violations as people usually follow the rules if they see cops around. This might improve overall safety out in the roads as well, as speeding sometimes causes major accidents. 
+* Therefore from this analysis we can suggest that the  police districts with many speed violations like jefferson park,chicago lawn to probably send more cops out to these areas to control the violations as people usually follow the rules if they see cops around. This might improve overall safety out in the roads as well, as speeding sometimes causes major accidents. 
 
 ## *Conclusion*:
 
