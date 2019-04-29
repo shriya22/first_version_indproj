@@ -34,7 +34,8 @@ This can aid us in getting a better understanding of which police district has h
 Each record has information about a police district name, along with the station address, latitude longitiude and zipcode.
 
 As the zip codes present in the speed violation dataset was incorrect,I first tried to merge police station data set by  using the zip codes obtained from the ward offices dataset([ward datset](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Ward-Offices/htai-wnw4)) with the zip codes in the police station dataset, but this contained a lot of null values.So this would not result in a very accurate analysis. Hence my approach was to allocate the police district closest to the location of violations happening.
-To see my approach click on the ipynb file here:
+
+I have attached an ipynb file in my repository.
 
 
 ## *General Changes made*:
