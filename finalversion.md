@@ -8,7 +8,7 @@ This dataset is speed cameria violations in Chicago where each record gives the 
 
 ![](indproj/Picture6.png)
 
-I beleive that **locations of violations** is a good graph to get an understanding of the violations happening in various parts of Chicago and the darker dots tells us that violations are more frequent there.
+I believe that **locations of violations** is a good graph to get an understanding of the violations happening in various parts of Chicago and the darker dots tells us that violations are more frequent there.
 
 I think **top 10 addresses with maximum number of violations** is a good plot as well, which clearly shows us the addresses and its violations based on the intensity of the colour. But it might improve by changing the color to a single shade with different intensities, as we know it is better to use minimum colours.
 
@@ -21,7 +21,7 @@ The above plot shows some major outliers during saturday and sunday.
 ### 2nd dashboard:
 ![](indproj/Picture7.png)
 
-**Violations occurring by the month** plot is too colorful, and I sorted the months based on the violations, but I think it could be better to look at the violations occuring throughout the months in the correct order( to see if there are any patterns over the months).  Hence a line plot can improve this considerably.
+**Violations occurring by the month** plot is too colorful, and I sorted the months based on the violations, but I think it could be better to look at the violations occuring throughout the months in the correct order(to see if there are any patterns over the months).  Hence a line plot can improve this considerably.
 
 **Quarterly violations throughout the years** clearly shows the trend throughout the years but along with removing 2014 and 2019, I would change this to a line graph and make it less colourful,as it conveys the same message in a more straightforward way. And I would change the ordering of the quarter and years, to show a general trend throughout the years.
 
@@ -31,9 +31,9 @@ To obtain more information about the locations of the violations and the associa
 
 This can aid us in getting a better understanding of which police district has higher violations.This can really help reduce speed violations if the respective poilce stations can take certain actions towards it.It would help to know exactly which addresses have many speed violations and which police district it comes under. 
 
-As the zip codes present in the speed violation dataset was incorrect,I first tried to merge police station data set by using the zip codes obtained from the ward offices dataset([ward datset](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Ward-Offices/htai-wnw4)) with the zip codes in the police station dataset, but this contained a lot of null values.So this would not result in a very accurate analysis. Hence my approach was to allocate the police district closest to the location of violations happening.
+As the zip codes present in the speed violation dataset was incorrect,I first tried to merge police station data set by using the zip codes obtained from the ward offices dataset([ward datset](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Ward-Offices/htai-wnw4)) with the zip codes in the police station dataset, but this contained a lot of null values.So this would not result in a very accurate analysis. Hence my approach was to allocate the police district closest to the location of violations happening.To achieve this I used python's cKDTree from scipy package and found the nearest location based on latitudes and longitudes provided on both the data sets. Then concatinated that column to the speed violations data set. Finally merged the dataset based on the district.
 
-I have attached an ipynb file in my repository.
+I have attached an ipynb file in my repository for the code.
 
 
 ## *General Changes made*:
@@ -68,7 +68,7 @@ This is the first dashboard which gives us a general understanding of the violat
 
 **Final analysis:**
 * Speed violations are decreasing throughout the years as we can see from the first plot. We can see that for each quarter throughout the years, there is a decreasing trend except for 2018 quarter 4 which has increased from the previous quarter.But in the long run, it does not make much of a difference. Hence the trend line is decreasing as the years go by. 
-* From the locations of violations we can see that speed violations are slightly more in the north of Chicago as there are many points darker points in thd north as compared to the south. This could be because of more population in the north leading to more people violating the rules, or people just driving faster in the north.
+* From the locations of violations we can see that speed violations are slightly more in the north of Chicago as there are many points and darker points in the north as compared to the south. This could be because of more population in the north leading to more people violating the rules, or people just driving faster in the north.
 
 
 ## 2nd visual:
