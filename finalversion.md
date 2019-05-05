@@ -62,8 +62,9 @@ This is the first dashboard which gives us a general understanding of the violat
 
 **Approach for the final version**: 
 * Decided to modify the plot by adding a trend line for the violations throughout the years as this clearly shows that violations have a decreasing trend.
+* Removed X axis title from the top as it is obvious that it signifies years and quarters.
 * Renamed both the plots that is more effective than just a decription of the plot. The new titles can generate discussions and identifies the exact thing the plot is trying to convey.
-* Also provided caption for the map plot that expalins how the plot was generated.
+* Also provided caption for the map plot that explains how the plot was generated.
 
 **Final analysis:**
 * Speed violations are decreasing throughout the years as we can see from the first plot. We can see that for each quarter throughout the years, there is a decreasing trend except for 2018 quarter 4 which has increased from the previous quarter.But in the long run, it does not make much of a difference. Hence the trend line is decreasing as the years go by. 
