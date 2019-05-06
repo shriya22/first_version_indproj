@@ -63,13 +63,12 @@ This is the first dashboard which gives us a general understanding of the violat
 **Approach for the final version**: 
 * Decided to modify the plot by adding a trend line for the violations throughout the years as this clearly shows that violations have a decreasing trend.
 * Removed X axis title from the top as it is obvious that it signifies years and quarters.
-* Renamed both the plots that is more effective than just a decription of the plot. The new titles can generate discussions and identifies the exact thing the plot is trying to convey.
+* Changed the titles of both the plots, as the previous title was not as effective( it was just a description of the plot). The new titles can generate discussions and identifies the exact thing the plot is trying to convey.
 * Also provided caption for the map plot that explains how the plot was generated.
 
 **Final analysis:**
-* Speed violations are decreasing throughout the years as we can see from the first plot. We can see that for each quarter throughout the years, there is a decreasing trend except for 2018 quarter 4 which has increased from the previous quarter.But in the long run, it does not make much of a difference. Hence the trend line is decreasing as the years go by. 
+* Speed violations are decreasing throughout the years as we can see from the first plot. We can see that for each quarter throughout the years, there is a decreasing trend except for 2018 quarter 4 which has increased from the previous quarter.But it is very slight and the violations in the lonf run still have the decreasing pattern. Hence the trend line is decreasing as the years go by. 
 * From the locations of violations we can see that speed violations are slightly more in the north of Chicago as there are many points and darker points in the north as compared to the south. This could be because of more population in the north leading to more people violating the rules, or people just driving faster in the north.
-
 
 ## 2nd visual:
 Now moving on to more specific analysis of the violations based on certain time trends. I wanted to know if there any any patterns based on different, more specific time trends. Therefore, violations over the months and during the days of the week was explored.
@@ -87,14 +86,14 @@ Now moving on to more specific analysis of the violations based on certain time 
 **Approach for the final version**:
 * I have removed the plot that shows violations throughout the month as it does not have any specific trend or pattern, and showing this to the mayor would be of no use.
 * Therefore I have renamed the plot that just focuses on the day of week.
-* The reference line has been modified to show the whole band for minimum and maximim violations occuring.
+* The reference line has been modified to show the whole band for the minimum and maximim violations occuring.
 
 **Final analysis**:                                                                     
-* Violations happen the least during Saturday and Sunday. Monday through Friday are all higher compared to the minimun. Highest is on Friday.
+* Violations happen the least during Saturday and Sunday. Monday through Friday are all higher compared to the minimun. Highest is on Friday. Speed violations are increasing from Monday through Friday.
 * Therefore to get a more general understanding, I have created a plot which shows the percentage of violations during weekdays and weekends. Weekends do not have a lot of violations as it is just around 30% while weekdays are 70% of the total violations ever happening. A possible explaination coud be that people probably violate the rules because they are running late to work or have a busy schedule. But during the weekend there people are in no rush, hence the violations could be lesser.
 
 ## 3rd visual:
-Using the poilce district information to identify districts of high violations.
+Using the poilce stations information to identify police districts having many speed violations.
 
 ### *First Version*
 ![image](indproj/Picture31.png)
@@ -115,9 +114,8 @@ Using the poilce district information to identify districts of high violations.
 * Therefore from this analysis we can suggest that the police districts with many speed violations like jefferson park,chicago lawn to probably send more cops out to these areas to control the violations as people usually follow the rules if they see cops around. This might improve overall safety out in the roads as well, as speeding sometimes causes major accidents. 
 
 ## *Conclusion*:
-
 * We can say from this analysis that
-  - Violations are decreasing througout the years,except for 2018 quarter 4, which increased from the previous quarter.
+  - Violations are decreasing througout the years.
   - More violations are happening in the north of Chicago. 
   - Violations are happening during the week mostly.
   - Police districts with highest number of speed violations are Jefferson Park, Chicago Lawn, Ogden, Lincoln and so on.
